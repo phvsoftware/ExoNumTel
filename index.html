@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
+    <title>Numero de telephone</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form-horizontal">
+                    <legend>Transformation de numéro de téléphone</legend>
+                    <br/>
+
+                    <div class="form-group">
+                        <label class="col-md-4" for="numerobrut">Numéro brut</label>
+                        <div class="col-md-4">
+                            <input id="numerobrut" name="numerobrut" type="text" placeholder="Entrez le numéro de téléphone sans espaces" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <button id="transformer" name="transformer" class="btn btn-success">Formater</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4" ></label>
+                        <div class="col-md-4">
+                            <input id="numeroformate" name="numeroformate" class="form-control" type="text" placeholder="Numéro formaté..." readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; <a href="https://phvsoftware666.web.app/" class="py-4 bg-dark text-white-50">PhVSoftware</a></small>
+        </div>
+    </footer>
+</body>
+</html>
